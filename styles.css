@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -84,6 +85,8 @@ button {
 
 img {
     display: flex; 
+    height: 225px;
+    width: auto;
     
 }
 
@@ -120,23 +123,77 @@ h3 {
     color: #1f2937;
     font-size: 10px;
     width: 100px;
-    text-align: center;
     padding-top: 5px;
+
+
 }
 
 .quote {
     background-color: #e5e7eb;
     padding: 50px;
+   
+    
     
 }
+
+    .quote-text {
+    width: 700px;
+
+    margin: 0 auto;
+
+}
+
+
+
 
 .quote p:first-of-type {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     font-weight: 100;
+    
 }
 .quote p:nth-last-of-type(1) {
     text-align: right;
     font-weight: bold;
+}
+
+
+.action {
+    background-color: #3882F6;
+    width: 650px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+
+button:last-child {
+    border: 1px solid white;
+    height: 30px;
+    
+
+}
+
+.action {
+    font-size: 14px;
+    color: #e5e7eb;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
 }
