@@ -49,9 +49,6 @@ ul {
     flex-wrap: nowrap;
     justify-content: center;
     gap: 100px;
-
-    
-    
     
 }
 
@@ -63,7 +60,7 @@ h2 {
 
 }
 
-main p {
+.main p {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -88,4 +85,58 @@ button {
 img {
     display: flex; 
     
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px lightblue solid; 
+    border-radius: 20px;
+    
+}
+
+.info { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+h3 { 
+ font-size: 36px;
+ color: #1F2937;
+ font-weight: 900;   
+ padding: 30px;
+}
+
+.box-text {
+    color: #1f2937;
+    font-size: 10px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    
+}
+
+.quote p:first-of-type {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+.quote p:nth-last-of-type(1) {
+    text-align: right;
+    font-weight: bold;
 }
