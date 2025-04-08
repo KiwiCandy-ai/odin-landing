@@ -176,7 +176,7 @@ h3 {
     
 }
 
-button:nth-of-type(2) {
+.action button {
     border: 1px solid white;
     height: 30px;
     
