@@ -1,1 +1,1 @@
-# odin-landing
+The goal of this project is to create a landing page based on a design provided by TOP. I will demonstrate my HTML and CSS skills, focusing particularly on flexbox. My aim is to become comfortable with flexbox by the end of the project
